@@ -13,7 +13,7 @@ import 'package:wakelock/wakelock.dart';
 import './message.dart';
 
 // const String broker = 'test.mosquitto.org';
-final client = MqttServerClient('www.by-zx.com', '');
+final client = MqttServerClient('byzx.info', '');
 
 void main() {
   runApp(const MyApp());
